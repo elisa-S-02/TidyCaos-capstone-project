@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Depressione maggiore",
+        "desc":"Profonda tristezza, perdita di interesse o piacere nelle attività quotidiane"
+    },
+    {
+        "name": "Disturbo d'ansia generalizzata (GAD)",
+        "desc":"Ansia e preoccupazione eccessive su una vasta gamma di situazioni"
+    },
+    {
+        "name": "Disturbo ossessivo-compulsivo (DOC)",
+        "desc":"Pensieri ossessivi e comportamenti compulsivi che causano disagio"
+    },
+    {
+        "name": "Disturbo della personalità antisociale (ASPD)",
+        "desc":"Disprezzo per le norme sociali, comportamenti manipolativi e mancanza di empatia"
+    },{
+        "name": "Disturbo della personalità narcisistica (NPD)",
+        "desc":"Grandiosità, bisogno di ammirazione e mancanza di empatia"
+    },{
+        "name": "Disturbo da attacchi di panico",
+        "desc":"Attacchi improvvisi di panico con sintomi fisici e psicologici intensi"
+    },{
+        "name": "Disturbo bipolare",
+        "desc":"Oscillazioni estreme dell'umore tra depressione e mania"
+    },{
+        "name": "Disturbo della personalità borderline (BPD)",
+        "desc":"Instabilità emotiva, relazionale e comportamentale"
+    },{
+        "name": "Disturbo da stress post-traumatico (PTSD)",
+        "desc":"Sviluppo di sintomi dopo un'esperienza traumatica"
+    },
+    {
+        "name": "Disturbo della personalità evitante",
+        "desc":"Evitamento di situazioni sociali a causa di timori di umiliazione o disapprovazione"
+    },
+    {
+        "name": "Disturbo della personalità dipendente",
+        "desc":"Forte necessità di essere presi in carico dagli altri, paura del rifiuto e difficoltà a prendere decisioni autonome"
+    },{
+        "name": "Disturbo della personalità istrionico",
+        "desc":"Costante bisogno di attenzione e approvazione, comportamenti esagerati e teatrali"
+    },{
+        "name": "Disturbo della personalità schizoide",
+        "desc":"Disinteresse per le relazioni sociali, emozioni piatte e distacco emotivo"
+    },{
+        "name": "Disturbo della personalità schizotipico",
+        "desc":"Stranezze comportamentali, credenze bizzarre e disagio sociale."
+    },{
+        "name": "Fobia sociale",
+        "desc":"Paura intensa delle situazioni sociali che possono causare vergogna o imbarazzo"
+    },{
+        "name": "Disturbo della personalità borderline (BPD)",
+        "desc":"Instabilità emotiva, relazionale e comportamentale"
+    },{
+        "name": "Disturbo ossessivo-compulsivo (DOC)",
+        "desc":"Pensieri ossessivi e comportamenti compulsivi che causano disagio"
+    },{
+        "name": "Disturbo da stress post-traumatico (PTSD)",
+        "desc":"Sviluppo di sintomi dopo un'esperienza traumatica"
+    },{
+        "name": "Disturbo della personalità antisociale (ASPD)",
+        "desc":"Disprezzo per le norme sociali, comportamenti manipolativi e mancanza di empatia"
+    },{
+        "name": "Disturbo della personalità narcisistica (NPD)",
+        "desc":"Grandiosità, bisogno di ammirazione e mancanza di empatia"
+    },{
+        "name": "Disturbo della personalità evitante",
+        "desc":"Evitamento di situazioni sociali a causa di timori di umiliazione o disapprovazione"
+    },{
+        "name": "Disturbo della personalità dipendente",
+        "desc":"Forte necessità di essere presi in carico dagli altri, paura del rifiuto e difficoltà a prendere decisioni autonome"
+    },{
+        "name": "Disturbo della personalità istrionico",
+        "desc":"Costante bisogno di attenzione e approvazione, comportamenti esagerati e teatrali"
+    },{
+        "name": "Disturbo della personalità schizoide",
+        "desc":"Disinteresse per le relazioni sociali, emozioni piatte e distacco emotivo"
+    },{
+        "name": "Disturbo della personalità schizotipico",
+        "desc":"Stranezze comportamentali, credenze bizzarre e disagio sociale"
+    },{
+        "name": "Fobia sociale",
+        "desc":"Paura intensa delle situazioni sociali che possono causare vergogna o imbarazzo"
+    },{
+        "name": "Disturbo d'ansia specifico",
+        "desc":"Paura irragionevole e intensa di una situazione o oggetto specifico"
+    },{
+        "name": "Disturbo d'ansia da separazione",
+        "desc":"Ansia eccessiva causata dalla separazione dalla figura di attaccamento"
+    },{
+        "name": "Disturbo da alimentazione incontrollata",
+        "desc":"Assunzione di grandi quantità di cibo in breve tempo, seguita da sensazioni di vergogna e disgusto"
+    },{
+        "name": "Disturbo da alimentazione notturna",
+        "desc":"Risvegli notturni regolari per consumare cibo, spesso senza ricordo il giorno successivo"
+    },{
+        "name": "Disturbo da deficit di attenzione e iperattività (ADHD)",
+        "desc":"Difficoltà nell'attenzione, iperattività e impulsività che possono interferire con il funzionamento quotidiano"
+    },{
+        "name": "Disturbo da gioco d'azzardo patologico",
+        "desc":"Necessità compulsiva di giocare d'azzardo nonostante le conseguenze negative"
+    },{
+        "name": "Disturbo da accumulo patologico",
+        "desc":"Accumulo eccessivo di oggetti, spesso fino al punto di interferire con lo spazio vitale"
+    },{
+        "name": "Disturbo dismorfofobico",
+        "desc":"Preoccupazione eccessiva per un difetto immaginario o insignificante nell'aspetto fisico"
+    },{
+        "name": "Disturbo da stress acuto",
+        "desc":"Sviluppo di sintomi ansiosi dopo un evento stressante, ma di breve durata"
+    },{
+        "name": "Disturbo del sonno da incubi",
+        "desc":"Incubi ricorrenti che causano angoscia e interferiscono con il sonno"
+    },{
+        "name": "Disturbo del sonno da terrore notturno",
+        "desc":"Episodi di terrore notturno che causano risvegli improvvisi e intensi"
+    },{
+        "name": "Disturbo del sonno da paralisi del sonno",
+        "desc":"Sensazione di paralisi durante il sonno o al risveglio, spesso accompagnata da allucinazioni"
+    },{
+        "name": "Disturbo da bruxismo",
+        "desc":"digrignamento involontario dei denti"
+    },{
+        "name": "Disturbo del sonno da apnea ostruttiva del sonno",
+        "desc":"Interruzioni della respirazione durante il sonno a causa di ostruzioni delle vie respiratorie"
+    },{
+        "name": "Disturbo da uso di sostanze",
+        "desc":"Dipendenza psicologica o fisica da sostanze come droghe, alcol o farmaci"
+    },{
+        "name": "Disturbo da gioco problematico",
+        "desc":"Utilizzo eccessivo di videogiochi o giochi online che interferisce con la vita quotidiana"
+    },{
+        "name": "Disturbo dell'umore stagionale",
+        "desc":"Depressione ricorrente correlata alle stagioni, generalmente in autunno e inverno"
+    },{
+        "name": "Disturbo da abuso sessuale infantile",
+        "desc":"Esperienza di abuso sessuale durante l'infanzia con conseguenti problemi di salute mentale"
+    },{
+        "name": "Disturbo da gioco compulsivo",
+        "desc":"Necessità compulsiva di giocare a videogiochi o giochi online"
+    },{
+        "name": "Disturbo da stress post-vacanza",
+        "desc":"Sensazione di disagio e depressione dopo le vacanze"
+    },{
+        "name": "Disturbo da abuso di sostanze",
+        "desc":"Utilizzo eccessivo e dannoso di sostanze come alcol, droghe o farmaci"
+    },{
+        "name": "Disturbo da abuso di alcol",
+        "desc":"Utilizzo eccessivo di alcol che causa problemi fisici, sociali o lavorativi"
+    },{
+        "name": "Disturbo del sonno da insonnia",
+        "desc":"Difficoltà nel dormire o nel rimanere addormentati durante la notte"
+    },{
+        "name": "Disturbo del sonno da narcolessia",
+        "desc":"Sonnolenza eccessiva durante il giorno, spesso accompagnata da improvvisi episodi di sonno"
+    },{
+        "name": "Disturbo del sonno da sindrome delle gambe senza riposo",
+        "desc":"Sensazioni spiacevoli alle gambe e il bisogno di muoverle durante il riposo o il sonno"
+    },{
+        "name": "Disturbo del sonno da bruxismo notturno",
+        "desc":"Digrignamento involontario dei denti durante il sonno"
+    },{
+        "name": "Disturbo del sonno da sonnambulismo",
+        "desc":"Camminare o eseguire altre attività durante il sonno"
+    },{
+        "name": "Disturbo del sonno da enuresi notturna",
+        "desc":"Incontinenza urinaria involontaria durante il sonno, più comune nei bambini"
+    },{
+        "name": "Disturbo del sonno da ipersonnia",
+        "desc":"Eccessiva sonnolenza durante il giorno, anche dopo un sonno prolungato."
+    },{
+        "name": "Disturbo da abuso di droghe",
+        "desc":"Utilizzo eccessivo e dannoso di droghe illecite"
+    },{
+        "name": "Disturbo dell'adattamento con umore depressivo",
+        "desc":"Reazione depressiva a eventi stressanti della vita"
+    },{
+        "name": "Disturbo dell'adattamento con disturbo misto di emozioni e comportamento",
+        "desc":"Reazione adattiva con sintomi misti di ansia e depressione"
+    },{
+        "name": "Disturbo dell'adattamento non specificato",
+        "desc":"Reazione adattiva a eventi stressanti non altrimenti specificata"
+    }
+]
