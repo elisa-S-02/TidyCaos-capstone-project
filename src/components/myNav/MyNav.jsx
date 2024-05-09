@@ -5,10 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Form, FormControl, Button } from "react-bootstrap";
 import { SearchContext } from "../provider/SearchContext";
-import SwitchMode from "../switchMode/SwitchMode";
-import { useSelector } from "react-redux";
-import { darkState } from "../../reducer/darkModeSlice";
 import { Link } from "react-router-dom";
+import disorders from "../../assets/disorders.json";
 
 const MyNav = (props) => {
   // Destructuring props
@@ -18,9 +16,13 @@ const MyNav = (props) => {
   const browse = props.link3;
 
   // Accessing context values using useContext hook
-  const { searchQuery, setSearchQuery, setArrayFiltered, setIsFilter, books } =
-    useContext(SearchContext);
-  const isDarkMode = useSelector(darkState);
+  const {
+    searchQuery,
+    setSearchQuery,
+    setArrayFiltered,
+    setIsFilter,
+    disorders,
+  } = useContext(SearchContext);
   // Function to handle search input change
   const handleSearchInputChange = (e) => {
     setSearchQuery(e.target.value);
@@ -31,16 +33,16 @@ const MyNav = (props) => {
   // Function to handle search button click
   const clickForFilter = (e) => {
     e.preventDefault();
-    // Filtering books based on search query
+    // Filtering disorders based on search query
     if (searchQuery.trim() !== "") {
-      const filteredBooks = books.filter((book) =>
-        book.title.toLowerCase().includes(searchQuery.toLowerCase())
+      const filteredDisorders = disorders.filter((disorder) =>
+        disorder.title.toLowerCase().includes(searchQuery.toLowerCase())
       );
-      // Updating filtered books and filter state
-      setArrayFiltered(filteredBooks);
+      // Updating filtered disorders and filter state
+      setArrayFiltered(filteredDisorders);
       setIsFilter(true);
     } else {
-      // Resetting filtered books and filter state when search query is empty
+      // Resetting filtered disorders and filter state when search query is empty
       setArrayFiltered([]);
       setIsFilter(false);
     }
@@ -49,10 +51,7 @@ const MyNav = (props) => {
   return (
     <div>
       {/* Navbar component */}
-      <Navbar
-        bg={isDarkMode ? "dark" : "light"}
-        data-bs-theme={isDarkMode ? "dark" : "light"}
-      >
+      <Navbar>
         <Container>
           {/* Navbar brand */}
           <Navbar.Brand href="#home">{site}</Navbar.Brand>
@@ -63,7 +62,6 @@ const MyNav = (props) => {
             <Nav.Link href="#">{browse}</Nav.Link>
           </Nav>
           {/* Search form */}
-          <SwitchMode />
           <Form className="d-flex">
             <FormControl
               // Handling search input change
@@ -72,7 +70,7 @@ const MyNav = (props) => {
               value={searchQuery}
               type="search"
               className="form-control"
-              placeholder="Search Books..."
+              placeholder="Search disorder..."
               required
             />
             {/* Search button */}

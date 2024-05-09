@@ -1,185 +1,244 @@
-[
-    {
+{"disorders" : [
+    {   
+        "id":"1",    
         "name": "Depressione maggiore",
         "desc":"Profonda tristezza, perdita di interesse o piacere nelle attività quotidiane"
     },
     {
+        "id":"2",
         "name": "Disturbo d'ansia generalizzata (GAD)",
         "desc":"Ansia e preoccupazione eccessive su una vasta gamma di situazioni"
     },
     {
+        "id":"3",
         "name": "Disturbo ossessivo-compulsivo (DOC)",
         "desc":"Pensieri ossessivi e comportamenti compulsivi che causano disagio"
     },
     {
+        "id":"4",
         "name": "Disturbo della personalità antisociale (ASPD)",
         "desc":"Disprezzo per le norme sociali, comportamenti manipolativi e mancanza di empatia"
     },{
+        "id":"5",
         "name": "Disturbo della personalità narcisistica (NPD)",
         "desc":"Grandiosità, bisogno di ammirazione e mancanza di empatia"
     },{
+        "id":"6",
         "name": "Disturbo da attacchi di panico",
         "desc":"Attacchi improvvisi di panico con sintomi fisici e psicologici intensi"
     },{
+        "id":"7",
         "name": "Disturbo bipolare",
         "desc":"Oscillazioni estreme dell'umore tra depressione e mania"
     },{
+        "id":"8",
         "name": "Disturbo della personalità borderline (BPD)",
         "desc":"Instabilità emotiva, relazionale e comportamentale"
     },{
+        "id":"9",
         "name": "Disturbo da stress post-traumatico (PTSD)",
         "desc":"Sviluppo di sintomi dopo un'esperienza traumatica"
     },
     {
+        "id":"10",
         "name": "Disturbo della personalità evitante",
         "desc":"Evitamento di situazioni sociali a causa di timori di umiliazione o disapprovazione"
     },
     {
+        "id":"11",
         "name": "Disturbo della personalità dipendente",
         "desc":"Forte necessità di essere presi in carico dagli altri, paura del rifiuto e difficoltà a prendere decisioni autonome"
     },{
+        "id":"12",
         "name": "Disturbo della personalità istrionico",
         "desc":"Costante bisogno di attenzione e approvazione, comportamenti esagerati e teatrali"
     },{
+        "id":"13",
         "name": "Disturbo della personalità schizoide",
         "desc":"Disinteresse per le relazioni sociali, emozioni piatte e distacco emotivo"
     },{
+        "id":"14",
         "name": "Disturbo della personalità schizotipico",
         "desc":"Stranezze comportamentali, credenze bizzarre e disagio sociale."
     },{
+        "id":"15",
         "name": "Fobia sociale",
         "desc":"Paura intensa delle situazioni sociali che possono causare vergogna o imbarazzo"
     },{
+        "id":"16",
         "name": "Disturbo della personalità borderline (BPD)",
         "desc":"Instabilità emotiva, relazionale e comportamentale"
     },{
+        "id":"17",
         "name": "Disturbo ossessivo-compulsivo (DOC)",
         "desc":"Pensieri ossessivi e comportamenti compulsivi che causano disagio"
     },{
+        "id":"18",
         "name": "Disturbo da stress post-traumatico (PTSD)",
         "desc":"Sviluppo di sintomi dopo un'esperienza traumatica"
     },{
+        "id":"19",
         "name": "Disturbo della personalità antisociale (ASPD)",
         "desc":"Disprezzo per le norme sociali, comportamenti manipolativi e mancanza di empatia"
     },{
+        "id":"20",
         "name": "Disturbo della personalità narcisistica (NPD)",
         "desc":"Grandiosità, bisogno di ammirazione e mancanza di empatia"
     },{
+        "id":"21",
         "name": "Disturbo della personalità evitante",
         "desc":"Evitamento di situazioni sociali a causa di timori di umiliazione o disapprovazione"
     },{
+        "id":"22",
         "name": "Disturbo della personalità dipendente",
         "desc":"Forte necessità di essere presi in carico dagli altri, paura del rifiuto e difficoltà a prendere decisioni autonome"
     },{
+        "id":"23",
         "name": "Disturbo della personalità istrionico",
         "desc":"Costante bisogno di attenzione e approvazione, comportamenti esagerati e teatrali"
     },{
+        "id":"24",
         "name": "Disturbo della personalità schizoide",
         "desc":"Disinteresse per le relazioni sociali, emozioni piatte e distacco emotivo"
     },{
+        "id":"25",
         "name": "Disturbo della personalità schizotipico",
         "desc":"Stranezze comportamentali, credenze bizzarre e disagio sociale"
     },{
+        "id":"26",
         "name": "Fobia sociale",
         "desc":"Paura intensa delle situazioni sociali che possono causare vergogna o imbarazzo"
     },{
+        "id":"27",
         "name": "Disturbo d'ansia specifico",
         "desc":"Paura irragionevole e intensa di una situazione o oggetto specifico"
     },{
+        "id":"28",
         "name": "Disturbo d'ansia da separazione",
         "desc":"Ansia eccessiva causata dalla separazione dalla figura di attaccamento"
     },{
+        "id":"29",
         "name": "Disturbo da alimentazione incontrollata",
         "desc":"Assunzione di grandi quantità di cibo in breve tempo, seguita da sensazioni di vergogna e disgusto"
     },{
+        "id":"30",
         "name": "Disturbo da alimentazione notturna",
         "desc":"Risvegli notturni regolari per consumare cibo, spesso senza ricordo il giorno successivo"
     },{
+        "id":"31",
         "name": "Disturbo da deficit di attenzione e iperattività (ADHD)",
         "desc":"Difficoltà nell'attenzione, iperattività e impulsività che possono interferire con il funzionamento quotidiano"
     },{
+        "id":"32",
         "name": "Disturbo da gioco d'azzardo patologico",
         "desc":"Necessità compulsiva di giocare d'azzardo nonostante le conseguenze negative"
     },{
+        "id":"33",
         "name": "Disturbo da accumulo patologico",
         "desc":"Accumulo eccessivo di oggetti, spesso fino al punto di interferire con lo spazio vitale"
     },{
+        "id":"34",
         "name": "Disturbo dismorfofobico",
         "desc":"Preoccupazione eccessiva per un difetto immaginario o insignificante nell'aspetto fisico"
     },{
+        "id":"35",
         "name": "Disturbo da stress acuto",
         "desc":"Sviluppo di sintomi ansiosi dopo un evento stressante, ma di breve durata"
     },{
+        "id":"36",
         "name": "Disturbo del sonno da incubi",
         "desc":"Incubi ricorrenti che causano angoscia e interferiscono con il sonno"
     },{
+        "id":"37",
         "name": "Disturbo del sonno da terrore notturno",
         "desc":"Episodi di terrore notturno che causano risvegli improvvisi e intensi"
     },{
+        "id":"38",
         "name": "Disturbo del sonno da paralisi del sonno",
         "desc":"Sensazione di paralisi durante il sonno o al risveglio, spesso accompagnata da allucinazioni"
     },{
+        "id":"39",
         "name": "Disturbo da bruxismo",
         "desc":"digrignamento involontario dei denti"
     },{
+        "id":"40",
         "name": "Disturbo del sonno da apnea ostruttiva del sonno",
         "desc":"Interruzioni della respirazione durante il sonno a causa di ostruzioni delle vie respiratorie"
     },{
+        "id":"41",
         "name": "Disturbo da uso di sostanze",
         "desc":"Dipendenza psicologica o fisica da sostanze come droghe, alcol o farmaci"
     },{
+        "id":"42",
         "name": "Disturbo da gioco problematico",
         "desc":"Utilizzo eccessivo di videogiochi o giochi online che interferisce con la vita quotidiana"
     },{
+        "id":"43",
         "name": "Disturbo dell'umore stagionale",
         "desc":"Depressione ricorrente correlata alle stagioni, generalmente in autunno e inverno"
     },{
+        "id":"44",
         "name": "Disturbo da abuso sessuale infantile",
         "desc":"Esperienza di abuso sessuale durante l'infanzia con conseguenti problemi di salute mentale"
     },{
+        "id":"45",
         "name": "Disturbo da gioco compulsivo",
         "desc":"Necessità compulsiva di giocare a videogiochi o giochi online"
     },{
+        "id":"46",
         "name": "Disturbo da stress post-vacanza",
         "desc":"Sensazione di disagio e depressione dopo le vacanze"
     },{
+        "id":"47",
         "name": "Disturbo da abuso di sostanze",
         "desc":"Utilizzo eccessivo e dannoso di sostanze come alcol, droghe o farmaci"
     },{
+        "id":"48",
         "name": "Disturbo da abuso di alcol",
         "desc":"Utilizzo eccessivo di alcol che causa problemi fisici, sociali o lavorativi"
     },{
+        "id":"49",
         "name": "Disturbo del sonno da insonnia",
         "desc":"Difficoltà nel dormire o nel rimanere addormentati durante la notte"
     },{
+        "id":"50",
         "name": "Disturbo del sonno da narcolessia",
         "desc":"Sonnolenza eccessiva durante il giorno, spesso accompagnata da improvvisi episodi di sonno"
     },{
+        "id":"51",
         "name": "Disturbo del sonno da sindrome delle gambe senza riposo",
         "desc":"Sensazioni spiacevoli alle gambe e il bisogno di muoverle durante il riposo o il sonno"
     },{
+        "id":"52",
         "name": "Disturbo del sonno da bruxismo notturno",
         "desc":"Digrignamento involontario dei denti durante il sonno"
     },{
+        "id":"53",
         "name": "Disturbo del sonno da sonnambulismo",
         "desc":"Camminare o eseguire altre attività durante il sonno"
     },{
+        "id":"54",
         "name": "Disturbo del sonno da enuresi notturna",
         "desc":"Incontinenza urinaria involontaria durante il sonno, più comune nei bambini"
     },{
+        "id":"55",
         "name": "Disturbo del sonno da ipersonnia",
         "desc":"Eccessiva sonnolenza durante il giorno, anche dopo un sonno prolungato."
     },{
+        "id":"56",
         "name": "Disturbo da abuso di droghe",
         "desc":"Utilizzo eccessivo e dannoso di droghe illecite"
     },{
+        "id":"57",
         "name": "Disturbo dell'adattamento con umore depressivo",
         "desc":"Reazione depressiva a eventi stressanti della vita"
     },{
+        "id":"58",
         "name": "Disturbo dell'adattamento con disturbo misto di emozioni e comportamento",
         "desc":"Reazione adattiva con sintomi misti di ansia e depressione"
     },{
+        "id":"59",
         "name": "Disturbo dell'adattamento non specificato",
         "desc":"Reazione adattiva a eventi stressanti non altrimenti specificata"
     }
-]
+]}

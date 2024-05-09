@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
+import disorders from "../../assets/disorders.json";
 
 // Creating a context object
 const SearchContext = createContext();
@@ -10,17 +11,15 @@ const SearchProvider = ({ children }) => {
   const [arrayFiltered, setArrayFiltered] = useState([]);
   const [loading, setLoading] = useState(false);
   const [isFilter, setIsFilter] = useState(false);
-  const [books, setBooks] = useState([]);
+  const [disorders, setDisorders] = useState([]);
 
   // Fetching data using useEffect hook when component mounts
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const res = await fetch("https://epibooks.onrender.com/fantasy");
-        await new Promise((resolve) => setTimeout(resolve, 3000));
-        const data = await res.json();
-        setBooks(data);
+        const data = await disorders.json();
+        setDisorders(data);
       } catch (error) {
         console.error("Error:" + error);
         throw error;
@@ -36,8 +35,8 @@ const SearchProvider = ({ children }) => {
   return (
     <SearchContext.Provider
       value={{
-        books,
-        setBooks,
+        disorders,
+        setDisorders,
         searchQuery,
         setSearchQuery,
         arrayFiltered,
