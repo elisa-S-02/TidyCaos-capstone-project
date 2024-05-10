@@ -1,12 +1,13 @@
 import React from "react";
-import AllIteams from "../components/allTheIteams/AllTheIteams";
-import Mainlayout from "../layouts/Mainlayout";
+import AllDisorders from "../components/allTheDisorders/AllTheDisorders";
+import MainPlan from "../layouts/MainLayout";
+import "./homepage.css";
 
 const Homepage = () => {
   return (
-    <Mainlayout>
-      <AllIteams />
-    </Mainlayout>
+    <MainPlan>
+      <AllDisorders />
+    </MainPlan>
   );
 };
 

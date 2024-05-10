@@ -1,20 +1,22 @@
 import React from "react";
 import MyNav from "../components/myNav/MyNav";
 import MyFoot from "../components/myFoot/MyFoot";
-
-const Mainlayout = ({ children }) => {
+import "bootstrap";
+import "./mainLayout.css";
+const MainPlan = ({ children }) => {
+  console.log(children);
   return (
-    <>
+    <div>
       <MyNav
-        site={"Fantasy Book"}
+        site={"Tidy Caos"}
         link1={"Home"}
         link2={"About"}
         link3={"Browse"}
       />
       {children}
       <MyFoot />
-    </>
+    </div>
   );
 };
 
-export default Mainlayout;
+export default MainPlan;

@@ -3,10 +3,9 @@ import React, { useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Form, FormControl, Button } from "react-bootstrap";
+import { Form, FormControl } from "react-bootstrap";
 import { SearchContext } from "../provider/SearchContext";
 import { Link } from "react-router-dom";
-import disorders from "../../assets/disorders.json";
 
 const MyNav = (props) => {
   // Destructuring props
@@ -57,7 +56,7 @@ const MyNav = (props) => {
           <Navbar.Brand href="#home">{site}</Navbar.Brand>
           {/* Navbar links */}
           <Nav className="me-auto">
-            <Link to="/">{home}</Link>
+            <Link href="../../pages/Homepage.jsx">{home}</Link>
             <Nav.Link href="#">{about}</Nav.Link>
             <Nav.Link href="#">{browse}</Nav.Link>
           </Nav>
@@ -74,14 +73,6 @@ const MyNav = (props) => {
               required
             />
             {/* Search button */}
-            <Button
-              // Handling click for search
-              onClick={clickForFilter}
-              type="button"
-              variant="outline-success"
-            >
-              Search
-            </Button>
           </Form>
         </Container>
       </Navbar>

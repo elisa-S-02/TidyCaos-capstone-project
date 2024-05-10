@@ -1,13 +1,13 @@
 import React from "react";
 
 import CardDetails from "../components/cardDetails/CardDetails";
-import Mainlayout from "../layouts/Mainlayout";
+import MainPlan from "../layouts/MainLayout";
 
 const ProfilePages = () => {
   return (
-    <Mainlayout>
+    <MainPlan>
       <CardDetails />;
-    </Mainlayout>
+    </MainPlan>
   );
 };
 

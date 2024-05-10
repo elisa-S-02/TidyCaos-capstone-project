@@ -3,7 +3,7 @@ import disorders from "../../assets/disorders.json";
 
 // Creating a context object
 const SearchContext = createContext();
-
+const trie = [];
 // Creating a provider component to wrap the application and provide context values
 const SearchProvider = ({ children }) => {
   // State variables for search functionality
@@ -13,18 +13,17 @@ const SearchProvider = ({ children }) => {
   const [isFilter, setIsFilter] = useState(false);
   const [disorders, setDisorders] = useState([]);
 
+  for (let i = 0; i < disorders.length; i++) {
+    const element = disorders[i];
+    console.log(element);
+  }
   // Fetching data using useEffect hook when component mounts
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      try {
-        const data = await disorders.json();
-        setDisorders(data);
-      } catch (error) {
-        console.error("Error:" + error);
-        throw error;
-      } finally {
-        setLoading(false);
+      for (let i = 0; i < disorders.length; i++) {
+        const elements = disorders[i];
+        console.log(elements);
       }
     };
 
