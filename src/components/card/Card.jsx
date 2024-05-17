@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap"; // Importing necessary components from R
 import "bootstrap/dist/css/bootstrap.min.css"; // Importing Bootstrap CSS
 import "./card.css";
 import { Link } from "react-router-dom";
-export function SingleCard({ onClick, id, img, title }) {
+export function SingleCard({ onClick, id, img, name }) {
   return (
     <Card
       key={id}
@@ -15,10 +15,10 @@ export function SingleCard({ onClick, id, img, title }) {
         className="ratio ratio-1x1"
         variant="top"
         src={img}
-        alt={title}
+        alt={name}
       />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Name>{name}</Card.Name>
         <div className="d-flex justify-content-between align-items-center">
           <Link to={`/detail/${id}`}> Detail </Link>
         </div>

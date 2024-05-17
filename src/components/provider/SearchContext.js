@@ -1,48 +1,39 @@
-import React, { createContext, useEffect, useState } from "react";
+import React, { createContext, useState } from "react";
 import disorders from "../../assets/disorders.json";
 
 // Creating a context object
 const SearchContext = createContext();
-const trie = [];
-// Creating a provider component to wrap the application and provide context values
+const internalArray = [];
+internalArray.concat(disorders);
+
 const SearchProvider = ({ children }) => {
   // State variables for search functionality
   const [searchQuery, setSearchQuery] = useState("");
-  const [arrayFiltered, setArrayFiltered] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [isFilter, setIsFilter] = useState(false);
-  const [disorders, setDisorders] = useState([]);
+  const [disorder, setDisorder] = useState([]);
 
-  for (let i = 0; i < disorders.length; i++) {
-    const element = disorders[i];
-    console.log(element);
-  }
-  // Fetching data using useEffect hook when component mounts
-  useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      for (let i = 0; i < disorders.length; i++) {
-        const elements = disorders[i];
-        console.log(elements);
-      }
-    };
-
-    fetchData();
-  }, []);
-
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+  const filteredDisorders = disorder.filter((disorder) => {
+    // Filtrare in base al nome o altri criteri di ricerca
+    return disorders.name.toLowerCase().includes(searchQuery.toLowerCase());
+  });
+  const ogdDisorder = () => {
+    internalArray.map(() => console.log(internalArray));
+  };
   // Providing context values to the children components
   return (
     <SearchContext.Provider
       value={{
-        disorders,
-        setDisorders,
+        disorder,
+        filteredDisorders,
         searchQuery,
-        setSearchQuery,
-        arrayFiltered,
-        setArrayFiltered,
-        isFilter,
-        setIsFilter,
-        loading,
+        handleSearchChange,
+        ogdDisorder,
+        // arrayFiltered,
+        // setArrayFiltered,
+        // isFilter,
+        // setIsFilter,
       }}
     >
       {children}
@@ -51,3 +42,5 @@ const SearchProvider = ({ children }) => {
 };
 
 export { SearchProvider, SearchContext };
+
+// useContext

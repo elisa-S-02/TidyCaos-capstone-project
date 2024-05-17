@@ -3,7 +3,7 @@ import React from "react";
 import CardDetails from "../components/cardDetails/CardDetails";
 import MainPlan from "../layouts/MainLayout";
 
-const ProfilePages = () => {
+const DetailPages = () => {
   return (
     <MainPlan>
       <CardDetails />;
@@ -11,4 +11,4 @@ const ProfilePages = () => {
   );
 };
 
-export default ProfilePages;
+export default DetailPages;
