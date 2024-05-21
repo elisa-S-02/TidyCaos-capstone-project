@@ -10,7 +10,7 @@ const SingleCard = ({ id, title }) => {
         <Card.Title className="card">{title}</Card.Title>
         <div className="d-flex justify-content-between align-items-center card ">
           <Link className="link card" to={`/detail/${id}`}>
-            Detail
+            Details
           </Link>
         </div>
       </Card.Body>

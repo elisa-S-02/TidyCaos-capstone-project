@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 
 const CardDetails = () => {
   const { id } = useParams();
-  const item = data.find((d) => d.id === parseInt(id));
+  const item = data.find((d) => d.id === Number(id));
 
   if (!item) {
     console.log(item);
@@ -15,20 +15,29 @@ const CardDetails = () => {
       </div>
     );
   }
+
   return (
     <>
-      <Container>
-        <Row>
-          <Col>
-            {item && (
-              <Card className="bg-dark text-white" key={item.id}>
-                <Card.Title>{item.name}</Card.Title>
-                <Card.Text>{item.desc}</Card.Text>
-              </Card>
-            )}
-          </Col>
-        </Row>
-      </Container>
+      <Row>
+        <Col className="bordo">
+          {item && (
+            <Card className="bg-white " key={item.id}>
+              <Card.Title className=" trasparente distance ">
+                {item.name}
+              </Card.Title>
+              <Card.Text className=" trasparente ">{item.desc}</Card.Text>
+              <p className=" trasparente citazione">
+                {" "}
+                "Lo stupido è chi non riconosce la propria ignoranza"
+              </p>
+              <Card.Text className=" trasparente distance">
+                per maggiori informazioni consulta liberamente la pagina
+                dedicata{item.wiki}
+              </Card.Text>
+            </Card>
+          )}
+        </Col>
+      </Row>
     </>
   );
 };

@@ -7,13 +7,12 @@ import Navbar from "react-bootstrap/Navbar";
 import { Form, FormControl } from "react-bootstrap";
 import { SearchContext } from "../provider/SearchContext";
 import { Link, useNavigate } from "react-router-dom";
+import "./myNav.css";
 
 const MyNav = (props) => {
   // Destructuring props
   const site = props.site;
   const home = props.link1;
-  const about = props.link2;
-  const browse = props.link3;
 
   // Accessing context values using useContext hook
   const {
@@ -56,7 +55,9 @@ const MyNav = (props) => {
       <Navbar>
         <Container>
           {/* Navbar brand */}
-          <Navbar.Brand to="">{site}</Navbar.Brand>
+          <Navbar.Brand className="site" to="">
+            <b>{site}</b>
+          </Navbar.Brand>
           {/* Navbar links */}
           <Nav className="me-auto">
             <Nav.Link onClick={() => navigate("/")}>{home}</Nav.Link>
@@ -70,7 +71,7 @@ const MyNav = (props) => {
               value={searchQuery}
               type="search"
               className="form-control"
-              placeholder="Search disorder..."
+              placeholder="coming soon"
               required
             />
             {/* Search button */}

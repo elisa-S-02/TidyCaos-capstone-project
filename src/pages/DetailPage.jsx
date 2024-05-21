@@ -6,7 +6,7 @@ import MainPlan from "../layouts/MainLayout";
 const DetailPages = () => {
   return (
     <MainPlan>
-      <CardDetails />;
+      <CardDetails />
     </MainPlan>
   );
 };

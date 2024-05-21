@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
 
-.clicked-card {
-    border: rgb(7, 50, 143) solid 3px;
-  }
-  .card img {
-    aspect-ratio: 1/2;
-    height: 400px;
-  }
-  
-  .card_body {
-    height: 200px;
-  }
-  .link{
+.App{
+    padding: 20px;
+}
+a{ 
+    object-fit: cover;
+}
+img{
+    object-fit: cover;
+}
+.black{
     color: black;
-    text-decoration: none;
-  }
-  .card{
-    background-color: rgb(235, 244, 248);
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+.contenitore{
+    height: 30rem;
+    overflow: hidden;
+    object-fit: cover;
+}
