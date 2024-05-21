@@ -1,6 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./cardDetails.css";
-import disorders from "../../assets/disorders.json";
+import data from "../../assets/disorders.json";
 
 const CardDetails = () => {
   return (
@@ -8,10 +8,10 @@ const CardDetails = () => {
       <Container>
         <Row>
           <Col>
-            {disorders && (
+            {data && (
               <Card className="bg-dark text-white">
-                <Card.Title>{disorders.name}</Card.Title>
-                <Card.Text>{disorders.desc}</Card.Text>
+                <Card.Title>{data.name}</Card.Title>
+                <Card.Text>{data.desc}</Card.Text>
               </Card>
             )}
           </Col>

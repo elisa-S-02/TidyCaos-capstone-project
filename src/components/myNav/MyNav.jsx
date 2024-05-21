@@ -1,4 +1,5 @@
 // MyNav.jsx
+
 import React, { useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -56,9 +57,7 @@ const MyNav = (props) => {
           <Navbar.Brand href="#home">{site}</Navbar.Brand>
           {/* Navbar links */}
           <Nav className="me-auto">
-            <Link href="../../pages/Homepage.jsx">{home}</Link>
-            <Nav.Link href="#">{about}</Nav.Link>
-            <Nav.Link href="#">{browse}</Nav.Link>
+            <Nav.Link href="#">{home}</Nav.Link>
           </Nav>
           {/* Search form */}
           <Form className="d-flex">
