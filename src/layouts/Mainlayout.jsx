@@ -13,7 +13,7 @@ const MainPlan = ({ children }) => {
         link2={"About"}
         link3={"Browse"}
       />
-      {children}
+      <div className="container">{children}</div>
       <MyFoot />
     </div>
   );

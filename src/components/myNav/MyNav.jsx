@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Form, FormControl } from "react-bootstrap";
 import { SearchContext } from "../provider/SearchContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const MyNav = (props) => {
   // Destructuring props
@@ -48,16 +48,18 @@ const MyNav = (props) => {
     }
   };
 
+  const navigate = useNavigate();
+
   return (
     <div>
       {/* Navbar component */}
       <Navbar>
         <Container>
           {/* Navbar brand */}
-          <Navbar.Brand href="#home">{site}</Navbar.Brand>
+          <Navbar.Brand to="">{site}</Navbar.Brand>
           {/* Navbar links */}
           <Nav className="me-auto">
-            <Nav.Link href="#">{home}</Nav.Link>
+            <Nav.Link onClick={() => navigate("/")}>{home}</Nav.Link>
           </Nav>
           {/* Search form */}
           <Form className="d-flex">

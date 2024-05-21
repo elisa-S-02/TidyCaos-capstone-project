@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 const SingleCard = ({ id, title }) => {
   return (
-    <Card id={id} className={`group relative shadow mb-4 h-100`}>
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <div className="d-flex justify-content-between align-items-center">
-          <Link className="link" to={`/detail/${id}`}>
+    <Card id={id} className={`group relative shadow mb-4 h-100 `}>
+      <Card.Body className="card">
+        <Card.Title className="card">{title}</Card.Title>
+        <div className="d-flex justify-content-between align-items-center card ">
+          <Link className="link card" to={`/detail/${id}`}>
             Detail
           </Link>
         </div>

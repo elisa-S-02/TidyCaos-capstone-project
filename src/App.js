@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <SearchProvider>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route exact path="/" element={<Homepage />} />
           <Route path="/detail/:id" element={<DetailPages />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
