@@ -7,7 +7,7 @@ a{
     object-fit: cover;
 }
 img{
-    object-fit: cover;
+    object-fit: fill;
 }
 .black{
     color: black;

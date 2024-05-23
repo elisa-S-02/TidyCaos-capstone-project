@@ -30,10 +30,10 @@ const CardDetails = () => {
                 {" "}
                 "Lo stupido è chi non riconosce la propria ignoranza"
               </p>
-              <Card.Text className=" trasparente distance">
+              <a className=" trasparente distance" href={item.wiki}>
                 per maggiori informazioni consulta liberamente la pagina
-                dedicata{item.wiki}
-              </Card.Text>
+                dedicata
+              </a>
             </Card>
           )}
         </Col>
